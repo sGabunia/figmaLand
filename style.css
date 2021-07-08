@@ -322,7 +322,7 @@ a {
   justify-content: space-between;
 }
 
-@media (min-width: 830px) {
+@media (min-width: 630px) {
   .freelance-title {
     max-width: 44ch;
   }
