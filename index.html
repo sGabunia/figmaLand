@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/67b11adb8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./images/logo.png" alt="company logo" class="logo-img" />
+          </div>
+
+          <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Product</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="sign-up">
+            <button class="btn">Sign Up</button>
+          </div>
+          <button class="generic-hamburger">
+            <input class="generic-hamburger__checkbox" type="checkbox" />
+            <span class="generic-hamburger__bar"></span>
+            <span class="generic-hamburger__bar"></span>
+            <span class="generic-hamburger__bar"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="main-wrapper">
+          <section class="text-content">
+            <h1 class="headline">OpenType features and Variable fonts</h1>
+            <p class="text">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </p>
+            <form class="mailing-input">
+              <input
+                type="email"
+                placeholder="Enter Your Email Address"
+                class="input"
+              />
+              <button class="btn subscribe">Subscribe</button>
+            </form>
+          </section>
+          <section class="img-content">
+            <picture>
+              <source
+                srcset="./images/screen_mask_xl.png"
+                media="(min-width: 680px)"
+              />
+              <img src="./images/screen_mask.png" alt="" />
+            </picture>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <section class="freelance">
+      <div class="container">
+        <div class="freelance-wrapper">
+          <h2 class="freelance-title">Work better together</h2>
+          <p class="text freelance-text">
+            Being a freelancer is a rollercoaster of emotions. We built Slate to
+            keep your freelance business less stressful.
+          </p>
+          <div class="progress">
+            <progress id="file" max="100" value="50"></progress>
+            <div class="progress-data">
+              <span>Facebook</span>
+              <span>35929</span>
+            </div>
+          </div>
+          <button class="btn free">Try For free</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="logo">
+            <img
+              src="./images/footer-logo.png"
+              alt="company logo"
+              class="logo-img"
+            />
+          </div>
+          <div class="social-icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <p class="footer-text">Just type what's on your mind and we'll</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
